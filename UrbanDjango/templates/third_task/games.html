@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+    <h1>{{title}}</h1>
+    <ul>
+        {% for item in text %}
+        <li>
+            <h3 style="font-weight: normal">{{ item }} <button>Купить</button></h3>
+        </li>
+        {% endfor %}
+    </ul>
+    <button><a href="\task3/">Вернуться на главную</a></button>
+</body>
+</html>
